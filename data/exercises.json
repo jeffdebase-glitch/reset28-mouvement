@@ -1,0 +1,2048 @@
+[
+  {
+    "id": "r28-001",
+    "slug": "assis-debout-chaise",
+    "nom": "Assis-debout sur chaise",
+    "famille": "Bas du corps",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "chaise"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers"
+    ],
+    "description": "Se relever d'une chaise puis se rasseoir avec contrôle.",
+    "instructions": [
+      "Assieds-toi vers l'avant de la chaise, pieds stables.",
+      "Penche légèrement le buste et pousse le sol pour te lever.",
+      "Reviens lentement jusqu'au contact avec la chaise."
+    ],
+    "points_cles": [
+      "Genoux dans l'axe des pieds.",
+      "Pieds entièrement au sol.",
+      "Descente contrôlée."
+    ],
+    "erreurs": [
+      "Se laisser tomber sur la chaise.",
+      "Pousser sur les mains sans nécessité."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "squat-chaise-controle",
+    "animation": "assets/animations/assis-debout-chaise.svg",
+    "url": "exercices/assis-debout-chaise/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-002",
+    "slug": "squat-chaise-controle",
+    "nom": "Squat vers une chaise",
+    "famille": "Bas du corps",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "chaise"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers"
+    ],
+    "description": "Descendre vers une chaise sans s'y relâcher, puis remonter.",
+    "instructions": [
+      "Place-toi debout devant la chaise, pieds confortablement écartés.",
+      "Recule les hanches jusqu'à effleurer l'assise.",
+      "Pousse le sol pour revenir debout."
+    ],
+    "points_cles": [
+      "Garde le poids réparti sur tout le pied.",
+      "Choisis une profondeur confortable.",
+      "Reste gainé sans raidir le dos."
+    ],
+    "erreurs": [
+      "Genoux qui rentrent fortement.",
+      "Accélérer la descente."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "assis-debout-chaise",
+    "progression": "squat",
+    "animation": "assets/animations/squat-chaise-controle.svg",
+    "url": "exercices/squat-chaise-controle/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-003",
+    "slug": "squat",
+    "nom": "Squat libre",
+    "famille": "Bas du corps",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "aucun"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers",
+      "tronc"
+    ],
+    "description": "Fléchir hanches et genoux puis revenir debout, sans charge.",
+    "instructions": [
+      "Place les pieds à une largeur confortable.",
+      "Descends en pliant hanches et genoux.",
+      "Remonte en poussant le sol."
+    ],
+    "points_cles": [
+      "Genoux orientés comme les pointes de pieds.",
+      "Talon et avant-pied restent en appui.",
+      "Amplitude sans douleur."
+    ],
+    "erreurs": [
+      "Arrondir volontairement le bas du dos en bas.",
+      "Décoller les talons."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "squat-chaise-controle",
+    "progression": "squat-goblet",
+    "animation": "assets/animations/squat.svg",
+    "url": "exercices/squat/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-004",
+    "slug": "squat-goblet",
+    "nom": "Squat goblet",
+    "famille": "Bas du corps",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "haltère ou kettlebell"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers",
+      "tronc"
+    ],
+    "description": "Un squat avec une charge tenue près de la poitrine.",
+    "instructions": [
+      "Tiens la charge contre le haut du buste.",
+      "Descends entre tes appuis avec contrôle.",
+      "Remonte sans éloigner la charge du corps."
+    ],
+    "points_cles": [
+      "Charge proche du buste.",
+      "Tronc stable.",
+      "Progression de charge graduelle."
+    ],
+    "erreurs": [
+      "Choisir trop lourd au détriment de l'amplitude.",
+      "Laisser les genoux s'effondrer vers l'intérieur."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "squat",
+    "progression": "split-squat",
+    "animation": "assets/animations/squat-goblet.svg",
+    "url": "exercices/squat-goblet/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-005",
+    "slug": "fente-arriere-assistee",
+    "nom": "Fente arrière assistée",
+    "famille": "Bas du corps",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "support stable"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers"
+    ],
+    "description": "Une fente arrière avec une main sur un support pour sécuriser l'équilibre.",
+    "instructions": [
+      "Tiens légèrement un support stable.",
+      "Recule un pied et descends verticalement.",
+      "Pousse dans le pied avant pour revenir."
+    ],
+    "points_cles": [
+      "Pas assez long pour rester stable.",
+      "Buste haut.",
+      "Appui principal sur la jambe avant."
+    ],
+    "erreurs": [
+      "Tirer fort sur le support.",
+      "Poser le pied arrière sur une ligne trop étroite."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "assis-debout-chaise",
+    "progression": "fente-arriere",
+    "animation": "assets/animations/fente-arriere-assistee.svg",
+    "url": "exercices/fente-arriere-assistee/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-006",
+    "slug": "fente-arriere",
+    "nom": "Fente arrière",
+    "famille": "Bas du corps",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "aucun"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers"
+    ],
+    "description": "Reculer un pied, fléchir les deux jambes puis revenir.",
+    "instructions": [
+      "Pars debout, pieds sous les hanches.",
+      "Fais un pas en arrière et descends verticalement.",
+      "Pousse dans le pied avant pour te replacer."
+    ],
+    "points_cles": [
+      "Garde le genou avant dans l'axe.",
+      "Contrôle le retour.",
+      "Réduis l'amplitude si l'équilibre manque."
+    ],
+    "erreurs": [
+      "Pas arrière trop court.",
+      "Impulsion excessive avec la jambe arrière."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "fente-arriere-assistee",
+    "progression": "split-squat",
+    "animation": "assets/animations/fente-arriere.svg",
+    "url": "exercices/fente-arriere/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-007",
+    "slug": "split-squat",
+    "nom": "Split squat",
+    "famille": "Bas du corps",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "aucun ou haltères"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers"
+    ],
+    "description": "Fléchir et tendre les jambes depuis une position décalée fixe.",
+    "instructions": [
+      "Place un pied devant et l'autre derrière, assez larges pour être stable.",
+      "Descends verticalement sans déplacer les pieds.",
+      "Remonte en poussant surtout dans le pied avant."
+    ],
+    "points_cles": [
+      "Bassin face devant.",
+      "Pied avant entièrement posé.",
+      "Amplitude contrôlée."
+    ],
+    "erreurs": [
+      "Position trop étroite.",
+      "Rebondir en bas."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "fente-arriere",
+    "progression": "squat-goblet",
+    "animation": "assets/animations/split-squat.svg",
+    "url": "exercices/split-squat/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-008",
+    "slug": "step-up-bas",
+    "nom": "Montée sur marche basse",
+    "famille": "Bas du corps",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "marche stable"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers",
+      "mollets"
+    ],
+    "description": "Monter sur une marche basse avec contrôle puis redescendre.",
+    "instructions": [
+      "Pose un pied entier sur une marche stable.",
+      "Monte en poussant dans ce pied.",
+      "Redescends lentement, puis change de côté."
+    ],
+    "points_cles": [
+      "Marche assez basse pour rester fluide.",
+      "Genou dans l'axe.",
+      "Évite l'élan."
+    ],
+    "erreurs": [
+      "Pousser surtout avec le pied resté au sol.",
+      "Laisser le bassin basculer."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "assis-debout-chaise",
+    "progression": "fente-arriere",
+    "animation": "assets/animations/step-up-bas.svg",
+    "url": "exercices/step-up-bas/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-009",
+    "slug": "pont-fessier",
+    "nom": "Pont fessier",
+    "famille": "Bas du corps",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "fessiers",
+      "arrière des cuisses"
+    ],
+    "description": "Élever le bassin depuis le sol en serrant les fessiers.",
+    "instructions": [
+      "Allonge-toi, genoux pliés et pieds au sol.",
+      "Pousse dans les pieds et monte le bassin.",
+      "Marque une courte pause puis redescends."
+    ],
+    "points_cles": [
+      "Côtes calmes, ventre légèrement tonique.",
+      "Poussée par les fessiers.",
+      "Amplitude sans cambrure forcée."
+    ],
+    "erreurs": [
+      "Chercher la hauteur en creusant le dos.",
+      "Pieds trop loin du bassin."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "hip-thrust",
+    "animation": "assets/animations/pont-fessier.svg",
+    "url": "exercices/pont-fessier/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-010",
+    "slug": "hip-thrust",
+    "nom": "Hip thrust",
+    "famille": "Bas du corps",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "banc ou canapé stable"
+    ],
+    "muscles": [
+      "fessiers",
+      "arrière des cuisses"
+    ],
+    "description": "Élever le bassin avec le haut du dos appuyé sur un support.",
+    "instructions": [
+      "Place le bas des omoplates sur un support stable.",
+      "Pieds au sol, monte le bassin.",
+      "Serre les fessiers puis redescends sous contrôle."
+    ],
+    "points_cles": [
+      "Regard vers l'avant.",
+      "Tibias proches de la verticale en haut.",
+      "Pas d'hyperextension lombaire."
+    ],
+    "erreurs": [
+      "Rejeter la tête en arrière.",
+      "Finir le mouvement avec le bas du dos."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "pont-fessier",
+    "progression": "hip-thrust-charge",
+    "animation": "assets/animations/hip-thrust.svg",
+    "url": "exercices/hip-thrust/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-011",
+    "slug": "hip-thrust-charge",
+    "nom": "Hip thrust avec charge",
+    "famille": "Bas du corps",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "banc",
+      "haltère ou barre protégée"
+    ],
+    "muscles": [
+      "fessiers",
+      "arrière des cuisses"
+    ],
+    "description": "Un hip thrust avec une charge stable sur le bassin.",
+    "instructions": [
+      "Installe la charge au pli des hanches avec une protection.",
+      "Monte le bassin en gardant la charge stable.",
+      "Marque la contraction puis redescends."
+    ],
+    "points_cles": [
+      "Commence léger.",
+      "Mains sur la charge.",
+      "Bassin horizontal."
+    ],
+    "erreurs": [
+      "Charge mal calée.",
+      "Augmenter la charge avant de maîtriser l'amplitude."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "hip-thrust",
+    "progression": "hip-thrust-unilateral",
+    "animation": "assets/animations/hip-thrust-charge.svg",
+    "url": "exercices/hip-thrust-charge/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-012",
+    "slug": "hip-thrust-unilateral",
+    "nom": "Hip thrust unilatéral",
+    "famille": "Bas du corps",
+    "niveau_min": "confirmé",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "banc ou canapé stable"
+    ],
+    "muscles": [
+      "fessiers",
+      "arrière des cuisses",
+      "tronc"
+    ],
+    "description": "Élever le bassin en prenant l'appui principal sur une jambe.",
+    "instructions": [
+      "Place le haut du dos sur le support et un pied au sol.",
+      "Garde l'autre jambe relâchée devant toi.",
+      "Monte sans tourner le bassin, puis redescends."
+    ],
+    "points_cles": [
+      "Bassin reste de niveau.",
+      "Amplitude plus petite si nécessaire.",
+      "Mouvement lent."
+    ],
+    "erreurs": [
+      "Rotation du bassin.",
+      "Pousser avec la jambe libre."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "hip-thrust",
+    "progression": null,
+    "animation": "assets/animations/hip-thrust-unilateral.svg",
+    "url": "exercices/hip-thrust-unilateral/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-013",
+    "slug": "mollets-debout",
+    "nom": "Élévations de mollets",
+    "famille": "Bas du corps",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "support stable optionnel"
+    ],
+    "muscles": [
+      "mollets"
+    ],
+    "description": "Monter sur la pointe des pieds puis redescendre lentement.",
+    "instructions": [
+      "Tiens-toi droit, pieds parallèles.",
+      "Monte les talons aussi haut que confortablement possible.",
+      "Redescends jusqu'au sol sans te laisser tomber."
+    ],
+    "points_cles": [
+      "Appui réparti sur l'avant-pied.",
+      "Chevilles restent dans l'axe.",
+      "Utilise un support pour l'équilibre."
+    ],
+    "erreurs": [
+      "Rebondir.",
+      "Rouler sur le bord externe du pied."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": null,
+    "animation": "assets/animations/mollets-debout.svg",
+    "url": "exercices/mollets-debout/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-014",
+    "slug": "presse-a-cuisses",
+    "nom": "Presse à cuisses",
+    "famille": "Bas du corps",
+    "niveau_min": "débutant",
+    "environnement": [
+      "salle"
+    ],
+    "materiel": [
+      "presse à cuisses"
+    ],
+    "muscles": [
+      "cuisses",
+      "fessiers"
+    ],
+    "description": "Pousser la plateforme d'une presse en gardant le bassin stable.",
+    "instructions": [
+      "Règle le siège pour une amplitude confortable.",
+      "Pousse la plateforme sans verrouiller brutalement les genoux.",
+      "Reviens lentement sans décoller le bassin."
+    ],
+    "points_cles": [
+      "Dos et bassin contre le dossier.",
+      "Pieds stables.",
+      "Charge maîtrisable."
+    ],
+    "erreurs": [
+      "Descendre jusqu'à arrondir le bassin.",
+      "Claquer les genoux en extension."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "squat-chaise-controle",
+    "progression": "squat-goblet",
+    "animation": "assets/animations/presse-a-cuisses.svg",
+    "url": "exercices/presse-a-cuisses/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-015",
+    "slug": "leg-curl-machine",
+    "nom": "Leg curl machine",
+    "famille": "Bas du corps",
+    "niveau_min": "débutant",
+    "environnement": [
+      "salle"
+    ],
+    "materiel": [
+      "machine leg curl"
+    ],
+    "muscles": [
+      "arrière des cuisses"
+    ],
+    "description": "Fléchir les genoux contre la résistance de la machine.",
+    "instructions": [
+      "Aligne les genoux avec l'axe de la machine.",
+      "Fléchis les jambes sans décoller le bassin.",
+      "Reviens lentement jusqu'à l'extension confortable."
+    ],
+    "points_cles": [
+      "Réglage adapté à ta taille.",
+      "Mouvement sans élan.",
+      "Charge progressive."
+    ],
+    "erreurs": [
+      "Soulever le bassin.",
+      "Laisser la charge retomber."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": null,
+    "animation": "assets/animations/leg-curl-machine.svg",
+    "url": "exercices/leg-curl-machine/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-016",
+    "slug": "pompes-murales",
+    "nom": "Pompes murales",
+    "famille": "Poussée",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "mur"
+    ],
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules"
+    ],
+    "description": "Faire une pompe debout contre un mur.",
+    "instructions": [
+      "Pose les mains au mur à hauteur de poitrine.",
+      "Fléchis les coudes pour approcher le buste.",
+      "Repousse le mur jusqu'aux bras tendus sans verrouiller."
+    ],
+    "points_cles": [
+      "Corps aligné.",
+      "Coudes légèrement sous les épaules.",
+      "Mains stables."
+    ],
+    "erreurs": [
+      "Creuser le bas du dos.",
+      "Monter les épaules vers les oreilles."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "pompes-inclinees-hautes",
+    "animation": "assets/animations/pompes-murales.svg",
+    "url": "exercices/pompes-murales/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-017",
+    "slug": "pompes-inclinees-hautes",
+    "nom": "Pompes inclinées hautes",
+    "famille": "Poussée",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "support haut stable"
+    ],
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules"
+    ],
+    "description": "Faire une pompe sur un support haut et stable.",
+    "instructions": [
+      "Place les mains sur le support, un peu plus larges que les épaules.",
+      "Recule les pieds et aligne le corps.",
+      "Descends la poitrine vers le support puis repousse."
+    ],
+    "points_cles": [
+      "Support immobile.",
+      "Corps en bloc.",
+      "Amplitude confortable."
+    ],
+    "erreurs": [
+      "Hanches qui restent en arrière.",
+      "Coudes complètement écartés."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "pompes-murales",
+    "progression": "pompes-inclinees",
+    "animation": "assets/animations/pompes-inclinees-hautes.svg",
+    "url": "exercices/pompes-inclinees-hautes/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-018",
+    "slug": "pompes-inclinees",
+    "nom": "Pompes inclinées",
+    "famille": "Poussée",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "support stable"
+    ],
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules",
+      "tronc"
+    ],
+    "description": "Une pompe sur un support plus bas pour augmenter progressivement la difficulté.",
+    "instructions": [
+      "Mains sur le support, corps aligné.",
+      "Descends le buste en contrôlant.",
+      "Repousse le support sans perdre l'alignement."
+    ],
+    "points_cles": [
+      "Abaisse le support seulement quand les répétitions sont propres.",
+      "Nuque dans l'axe.",
+      "Gainage continu."
+    ],
+    "erreurs": [
+      "Support instable.",
+      "Bassin qui s'affaisse."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "pompes-inclinees-hautes",
+    "progression": "pompes-genoux",
+    "animation": "assets/animations/pompes-inclinees.svg",
+    "url": "exercices/pompes-inclinees/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-019",
+    "slug": "pompes-genoux",
+    "nom": "Pompes sur les genoux",
+    "famille": "Poussée",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules",
+      "tronc"
+    ],
+    "description": "Une pompe au sol avec l'appui sur les genoux.",
+    "instructions": [
+      "Pose les mains légèrement plus larges que les épaules.",
+      "Aligne genoux, bassin et épaules.",
+      "Descends la poitrine puis repousse."
+    ],
+    "points_cles": [
+      "Bassin avance avec le buste.",
+      "Coudes en diagonale.",
+      "Amplitude contrôlée."
+    ],
+    "erreurs": [
+      "Plier seulement les hanches.",
+      "Laisser la tête tomber."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "pompes-inclinees",
+    "progression": "pompes",
+    "animation": "assets/animations/pompes-genoux.svg",
+    "url": "exercices/pompes-genoux/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-020",
+    "slug": "pompes",
+    "nom": "Pompes au sol",
+    "famille": "Poussée",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "aucun ou tapis"
+    ],
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules",
+      "tronc"
+    ],
+    "description": "Fléchir puis tendre les bras en gardant le corps aligné.",
+    "instructions": [
+      "Mains légèrement plus larges que les épaules.",
+      "Descends le corps en bloc.",
+      "Repousse le sol jusqu'à retrouver la position haute."
+    ],
+    "points_cles": [
+      "Fessiers et ventre toniques.",
+      "Nuque neutre.",
+      "Garde une amplitude maîtrisée."
+    ],
+    "erreurs": [
+      "Bassin qui s'affaisse.",
+      "Coudes à 90 degrés du buste."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "pompes-genoux",
+    "progression": null,
+    "animation": "assets/animations/pompes.svg",
+    "url": "exercices/pompes/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-021",
+    "slug": "chest-press-machine",
+    "nom": "Chest press machine",
+    "famille": "Poussée",
+    "niveau_min": "débutant",
+    "environnement": [
+      "salle"
+    ],
+    "materiel": [
+      "machine chest press"
+    ],
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules"
+    ],
+    "description": "Pousser les poignées d'une machine guidée depuis une position assise.",
+    "instructions": [
+      "Règle le siège pour placer les poignées vers le milieu de poitrine.",
+      "Pousse devant toi sans décoller le dos.",
+      "Reviens lentement jusqu'à l'étirement confortable."
+    ],
+    "points_cles": [
+      "Omoplates en contact avec le dossier.",
+      "Poignets neutres.",
+      "Charge sans à-coup."
+    ],
+    "erreurs": [
+      "Épaules projetées vers l'avant.",
+      "Retour trop profond et douloureux."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "pompes-murales",
+    "progression": "developpe-halteres",
+    "animation": "assets/animations/chest-press-machine.svg",
+    "url": "exercices/chest-press-machine/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-022",
+    "slug": "developpe-halteres",
+    "nom": "Développé couché haltères",
+    "famille": "Poussée",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "salle",
+      "maison"
+    ],
+    "materiel": [
+      "banc",
+      "haltères"
+    ],
+    "muscles": [
+      "pectoraux",
+      "triceps",
+      "épaules"
+    ],
+    "description": "Pousser deux haltères au-dessus de la poitrine depuis un banc.",
+    "instructions": [
+      "Allonge-toi, pieds stables et haltères près de la poitrine.",
+      "Pousse les charges vers le haut.",
+      "Redescends lentement, coudes en diagonale."
+    ],
+    "points_cles": [
+      "Omoplates stables.",
+      "Poignets au-dessus des coudes.",
+      "Charge contrôlée."
+    ],
+    "erreurs": [
+      "Heurter les haltères en haut.",
+      "Descendre au-delà d'une amplitude confortable."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "chest-press-machine",
+    "progression": null,
+    "animation": "assets/animations/developpe-halteres.svg",
+    "url": "exercices/developpe-halteres/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-043",
+    "slug": "serrage-omoplates-debout",
+    "nom": "Serrage d'omoplates debout",
+    "famille": "Tirage / dos",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "aucun"
+    ],
+    "muscles": [
+      "haut du dos",
+      "arrière d'épaule"
+    ],
+    "description": "Ramener doucement les coudes en arrière pour mobiliser les omoplates, sans charge.",
+    "instructions": [
+      "Tiens-toi debout, bras pliés près du corps.",
+      "Ramène doucement les coudes en arrière en ouvrant la poitrine.",
+      "Relâche jusqu'à la position de départ sans arrondir volontairement le dos."
+    ],
+    "points_cles": [
+      "Épaules loin des oreilles.",
+      "Mouvement petit et contrôlé.",
+      "Pas de cambrure forcée."
+    ],
+    "erreurs": [
+      "Pousser la tête vers l'avant.",
+      "Serrer au maximum malgré une gêne."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "tirage-serviette-isometrique",
+    "animation": "assets/animations/serrage-omoplates-debout.svg",
+    "url": "exercices/serrage-omoplates-debout/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-023",
+    "slug": "tirage-serviette-isometrique",
+    "nom": "Tirage isométrique avec serviette",
+    "famille": "Tirage / dos",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison"
+    ],
+    "materiel": [
+      "serviette solide"
+    ],
+    "muscles": [
+      "haut du dos",
+      "biceps"
+    ],
+    "description": "Créer une tension de tirage avec une serviette tenue entre les mains.",
+    "instructions": [
+      "Tiens une serviette devant toi, bras presque tendus.",
+      "Tire les extrémités vers l'extérieur pour tendre la serviette.",
+      "Ramène les coudes vers le corps en gardant cette tension."
+    ],
+    "points_cles": [
+      "Épaules basses.",
+      "Tension modérée et continue.",
+      "Aucun à-coup."
+    ],
+    "erreurs": [
+      "Hausser les épaules.",
+      "Bloquer la respiration."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "serrage-omoplates-debout",
+    "progression": "tirage-elastique",
+    "animation": "assets/animations/tirage-serviette-isometrique.svg",
+    "url": "exercices/tirage-serviette-isometrique/",
+    "format": "duree",
+    "prescription_defaut": {
+      "series": 2,
+      "duree_secondes": "20 à 30",
+      "repos_secondes": 45
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-024",
+    "slug": "tirage-elastique",
+    "nom": "Tirage horizontal élastique",
+    "famille": "Tirage / dos",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "élastique",
+      "ancrage sûr"
+    ],
+    "muscles": [
+      "haut du dos",
+      "biceps",
+      "arrière d'épaule"
+    ],
+    "description": "Tirer un élastique vers le buste, coudes près du corps.",
+    "instructions": [
+      "Fixe l'élastique à un ancrage prévu pour cela.",
+      "Recule jusqu'à une tension légère, bras devant.",
+      "Tire les coudes en arrière puis reviens lentement."
+    ],
+    "points_cles": [
+      "Vérifie l'élastique et l'ancrage.",
+      "Buste immobile.",
+      "Épaules loin des oreilles."
+    ],
+    "erreurs": [
+      "Donner de l'élan avec le dos.",
+      "Relâcher brutalement l'élastique."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "tirage-serviette-isometrique",
+    "progression": "rowing-halteres-unilateral",
+    "animation": "assets/animations/tirage-elastique.svg",
+    "url": "exercices/tirage-elastique/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-025",
+    "slug": "rowing-halteres-unilateral",
+    "nom": "Rowing unilatéral haltère",
+    "famille": "Tirage / dos",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "haltère",
+      "support stable"
+    ],
+    "muscles": [
+      "grand dorsal",
+      "haut du dos",
+      "biceps"
+    ],
+    "description": "Tirer un haltère vers la hanche avec le buste soutenu.",
+    "instructions": [
+      "Appuie une main sur un support et recule la jambe du même côté.",
+      "Laisse le bras chargé descendre sans tourner le buste.",
+      "Tire le coude vers la hanche puis redescends."
+    ],
+    "points_cles": [
+      "Dos long et stable.",
+      "Coude suit le flanc.",
+      "Épaule ne roule pas vers l'avant."
+    ],
+    "erreurs": [
+      "Tourner le torse pour monter la charge.",
+      "Hausser l'épaule."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "tirage-elastique",
+    "progression": "rowing-machine",
+    "animation": "assets/animations/rowing-halteres-unilateral.svg",
+    "url": "exercices/rowing-halteres-unilateral/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-026",
+    "slug": "rowing-machine",
+    "nom": "Rowing assis machine",
+    "famille": "Tirage / dos",
+    "niveau_min": "débutant",
+    "environnement": [
+      "salle"
+    ],
+    "materiel": [
+      "machine rowing"
+    ],
+    "muscles": [
+      "haut du dos",
+      "grand dorsal",
+      "biceps"
+    ],
+    "description": "Tirer les poignées d'une machine vers le buste en restant stable.",
+    "instructions": [
+      "Règle l'assise et pose le buste si la machine a un appui.",
+      "Tire les coudes vers l'arrière.",
+      "Reviens jusqu'aux bras presque tendus sans te décoller."
+    ],
+    "points_cles": [
+      "Poitrine stable.",
+      "Épaules basses.",
+      "Retour contrôlé."
+    ],
+    "erreurs": [
+      "Se balancer.",
+      "Tirer uniquement avec les mains."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "tirage-elastique",
+    "progression": null,
+    "animation": "assets/animations/rowing-machine.svg",
+    "url": "exercices/rowing-machine/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-027",
+    "slug": "tirage-vertical",
+    "nom": "Tirage vertical",
+    "famille": "Tirage / dos",
+    "niveau_min": "débutant",
+    "environnement": [
+      "salle"
+    ],
+    "materiel": [
+      "machine à poulie haute"
+    ],
+    "muscles": [
+      "grand dorsal",
+      "haut du dos",
+      "biceps"
+    ],
+    "description": "Tirer une barre ou des poignées vers le haut de la poitrine.",
+    "instructions": [
+      "Bloque les cuisses sous les boudins et saisis la barre.",
+      "Tire les coudes vers le bas.",
+      "Remonte la charge lentement jusqu'à l'étirement confortable."
+    ],
+    "points_cles": [
+      "Buste légèrement incliné et stable.",
+      "Trajectoire devant la tête.",
+      "Épaules restent basses."
+    ],
+    "erreurs": [
+      "Tirer derrière la nuque.",
+      "Se balancer pour lancer la charge."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "tirage-elastique",
+    "progression": null,
+    "animation": "assets/animations/tirage-vertical.svg",
+    "url": "exercices/tirage-vertical/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-028",
+    "slug": "pull-apart-elastique",
+    "nom": "Écarté élastique",
+    "famille": "Tirage / dos",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "élastique léger"
+    ],
+    "muscles": [
+      "haut du dos",
+      "arrière d'épaule"
+    ],
+    "description": "Écarter les mains pour tendre un élastique devant la poitrine.",
+    "instructions": [
+      "Tiens l'élastique devant toi, bras presque tendus.",
+      "Écarte les mains jusqu'à ouvrir la poitrine.",
+      "Reviens lentement sans perdre toute la tension."
+    ],
+    "points_cles": [
+      "Élastique léger.",
+      "Épaules basses.",
+      "Côtes calmes."
+    ],
+    "erreurs": [
+      "Cambrer pour gagner de l'amplitude.",
+      "Transformer le mouvement en tirage de coudes."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "glisse-murale-scapulaire",
+    "progression": "face-pull-elastique",
+    "animation": "assets/animations/pull-apart-elastique.svg",
+    "url": "exercices/pull-apart-elastique/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-029",
+    "slug": "glisse-murale-scapulaire",
+    "nom": "Glissé mural des bras",
+    "famille": "Tirage / dos",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "mur"
+    ],
+    "muscles": [
+      "omoplates",
+      "épaules",
+      "haut du dos"
+    ],
+    "description": "Faire glisser les avant-bras vers le haut d'un mur sans forcer l'amplitude.",
+    "instructions": [
+      "Place les avant-bras au mur, coudes sous les épaules.",
+      "Glisse les bras vers le haut.",
+      "Redescends en gardant les épaules basses."
+    ],
+    "points_cles": [
+      "Amplitude indolore.",
+      "Ne plaque pas le dos de force.",
+      "Mouvement lent."
+    ],
+    "erreurs": [
+      "Hausser les épaules.",
+      "Forcer les poignets ou les coudes contre le mur."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "pull-apart-elastique",
+    "animation": "assets/animations/glisse-murale-scapulaire.svg",
+    "url": "exercices/glisse-murale-scapulaire/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-030",
+    "slug": "developpe-epaules-halteres",
+    "nom": "Développé épaules haltères",
+    "famille": "Épaules",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "haltères",
+      "banc optionnel"
+    ],
+    "muscles": [
+      "épaules",
+      "triceps"
+    ],
+    "description": "Pousser deux haltères au-dessus de la tête, assis ou debout.",
+    "instructions": [
+      "Place les haltères à hauteur d'épaules.",
+      "Pousse-les vers le haut dans une trajectoire confortable.",
+      "Redescends lentement à hauteur d'épaules."
+    ],
+    "points_cles": [
+      "Côtes maîtrisées.",
+      "Poignets au-dessus des coudes.",
+      "Pas de douleur en hauteur."
+    ],
+    "erreurs": [
+      "Cambrure excessive.",
+      "Cogner les haltères en haut."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": null,
+    "animation": "assets/animations/developpe-epaules-halteres.svg",
+    "url": "exercices/developpe-epaules-halteres/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-031",
+    "slug": "elevation-laterale",
+    "nom": "Élévations latérales",
+    "famille": "Épaules",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "haltères légers ou élastique"
+    ],
+    "muscles": [
+      "épaules"
+    ],
+    "description": "Lever les bras sur les côtés avec une charge légère.",
+    "instructions": [
+      "Tiens les charges près des cuisses, coudes légèrement pliés.",
+      "Monte les bras sur les côtés jusqu'à une hauteur confortable.",
+      "Redescends lentement."
+    ],
+    "points_cles": [
+      "Charge légère.",
+      "Épaules basses.",
+      "Pas d'élan."
+    ],
+    "erreurs": [
+      "Monter en haussant les épaules.",
+      "Balancer le buste."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": null,
+    "animation": "assets/animations/elevation-laterale.svg",
+    "url": "exercices/elevation-laterale/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-032",
+    "slug": "face-pull-elastique",
+    "nom": "Face pull élastique",
+    "famille": "Épaules",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "élastique",
+      "ancrage sûr"
+    ],
+    "muscles": [
+      "arrière d'épaule",
+      "haut du dos"
+    ],
+    "description": "Tirer un élastique vers le visage en ouvrant les coudes.",
+    "instructions": [
+      "Fixe l'élastique à hauteur du visage.",
+      "Tire vers les côtés du visage, coudes ouverts.",
+      "Reviens lentement sans laisser l'élastique claquer."
+    ],
+    "points_cles": [
+      "Ancrage vérifié.",
+      "Épaules basses.",
+      "Élastique léger à modéré."
+    ],
+    "erreurs": [
+      "Tirer vers le cou.",
+      "Cambrer pour finir le mouvement."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "pull-apart-elastique",
+    "progression": null,
+    "animation": "assets/animations/face-pull-elastique.svg",
+    "url": "exercices/face-pull-elastique/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-033",
+    "slug": "dead-bug-talons",
+    "nom": "Dead bug - touches de talon",
+    "famille": "Tronc",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "abdominaux",
+      "stabilité du tronc"
+    ],
+    "description": "Depuis le dos, éloigner un pied pour toucher le sol sans perdre le contrôle du tronc.",
+    "instructions": [
+      "Allonge-toi, hanches et genoux pliés.",
+      "Éloigne lentement un pied jusqu'à toucher le sol du talon.",
+      "Ramène-le puis alterne."
+    ],
+    "points_cles": [
+      "Bas du dos reste confortable.",
+      "Mouvement lent.",
+      "Réduis la distance si le ventre se relâche."
+    ],
+    "erreurs": [
+      "Aller trop loin et creuser le dos.",
+      "Accélérer l'alternance."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "dead-bug",
+    "animation": "assets/animations/dead-bug-talons.svg",
+    "url": "exercices/dead-bug-talons/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-034",
+    "slug": "dead-bug",
+    "nom": "Dead bug",
+    "famille": "Tronc",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "abdominaux",
+      "stabilité du tronc"
+    ],
+    "description": "Éloigner bras et jambe opposés en gardant le tronc stable.",
+    "instructions": [
+      "Allonge-toi, bras vers le plafond, hanches et genoux pliés.",
+      "Éloigne lentement un bras et la jambe opposée.",
+      "Reviens puis alterne."
+    ],
+    "points_cles": [
+      "Expiration douce pendant l'éloignement.",
+      "Amplitude adaptée au contrôle.",
+      "Bassin immobile."
+    ],
+    "erreurs": [
+      "Plaquer douloureusement le dos.",
+      "Bouger les quatre membres trop vite."
+    ],
+    "respiration": "Expire doucement quand tu éloignes bras et jambe ; inspire au retour.",
+    "regression": "dead-bug-talons",
+    "progression": null,
+    "animation": "assets/animations/dead-bug.svg",
+    "url": "exercices/dead-bug/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-035",
+    "slug": "bird-dog",
+    "nom": "Bird dog",
+    "famille": "Tronc",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "dos",
+      "fessiers",
+      "stabilité du tronc"
+    ],
+    "description": "Tendre bras et jambe opposés à quatre pattes sans tourner le bassin.",
+    "instructions": [
+      "Place mains sous épaules et genoux sous hanches.",
+      "Tends un bras et la jambe opposée.",
+      "Reviens avec contrôle puis alterne."
+    ],
+    "points_cles": [
+      "Bassin face au sol.",
+      "Cherche la longueur, pas la hauteur.",
+      "Nuque dans l'axe."
+    ],
+    "erreurs": [
+      "Lever la jambe trop haut.",
+      "Déplacer tout le poids d'un côté."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "dead-bug",
+    "progression": null,
+    "animation": "assets/animations/bird-dog.svg",
+    "url": "exercices/bird-dog/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-036",
+    "slug": "planche-murale",
+    "nom": "Planche contre un mur",
+    "famille": "Tronc",
+    "niveau_min": "reprise",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "mur"
+    ],
+    "muscles": [
+      "abdominaux",
+      "épaules",
+      "tronc"
+    ],
+    "description": "Maintenir le corps aligné avec les avant-bras ou les mains contre un mur.",
+    "instructions": [
+      "Pose les avant-bras au mur et recule les pieds.",
+      "Aligne tête, bassin et chevilles.",
+      "Tiens la position en respirant."
+    ],
+    "points_cles": [
+      "Corps en ligne.",
+      "Épaules loin des oreilles.",
+      "Durée courte mais propre."
+    ],
+    "erreurs": [
+      "Bassin trop en arrière.",
+      "Bloquer la respiration."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "planche-inclinee",
+    "animation": "assets/animations/planche-murale.svg",
+    "url": "exercices/planche-murale/",
+    "format": "duree",
+    "prescription_defaut": {
+      "series": 2,
+      "duree_secondes": "20 à 30",
+      "repos_secondes": 45
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-037",
+    "slug": "planche-inclinee",
+    "nom": "Planche inclinée",
+    "famille": "Tronc",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "support stable"
+    ],
+    "muscles": [
+      "abdominaux",
+      "épaules",
+      "tronc"
+    ],
+    "description": "Maintenir une planche sur un support haut et stable.",
+    "instructions": [
+      "Pose les avant-bras ou les mains sur le support.",
+      "Recule jusqu'à aligner le corps.",
+      "Maintiens sans laisser le bassin descendre."
+    ],
+    "points_cles": [
+      "Support immobile.",
+      "Fessiers légèrement serrés.",
+      "Respiration régulière."
+    ],
+    "erreurs": [
+      "Retenir son souffle.",
+      "S'affaisser entre les épaules."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "planche-murale",
+    "progression": "planche",
+    "animation": "assets/animations/planche-inclinee.svg",
+    "url": "exercices/planche-inclinee/",
+    "format": "duree",
+    "prescription_defaut": {
+      "series": 2,
+      "duree_secondes": "20 à 35",
+      "repos_secondes": 45
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-038",
+    "slug": "planche",
+    "nom": "Planche avant",
+    "famille": "Tronc",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "abdominaux",
+      "épaules",
+      "tronc"
+    ],
+    "description": "Maintenir le corps aligné sur les avant-bras et les pointes de pieds.",
+    "instructions": [
+      "Place les coudes sous les épaules.",
+      "Tends les jambes et aligne le corps.",
+      "Tiens la position sans modifier ta respiration."
+    ],
+    "points_cles": [
+      "Pousse légèrement le sol.",
+      "Bassin ni haut ni affaissé.",
+      "Arrête la série quand l'alignement se perd."
+    ],
+    "erreurs": [
+      "Chercher un record de durée.",
+      "Creuser le bas du dos."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "planche-inclinee",
+    "progression": null,
+    "animation": "assets/animations/planche.svg",
+    "url": "exercices/planche/",
+    "format": "duree",
+    "prescription_defaut": {
+      "series": 2,
+      "duree_secondes": "20 à 40",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-039",
+    "slug": "planche-laterale-genoux",
+    "nom": "Planche latérale sur les genoux",
+    "famille": "Tronc",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "abdominaux latéraux",
+      "épaule",
+      "fessiers"
+    ],
+    "description": "Maintenir le bassin levé sur un avant-bras et les genoux.",
+    "instructions": [
+      "Place le coude sous l'épaule et plie les genoux.",
+      "Soulève le bassin pour aligner épaules, bassin et genoux.",
+      "Tiens puis redescends et change de côté."
+    ],
+    "points_cles": [
+      "Avant-bras pousse le sol.",
+      "Bassin ne tourne pas.",
+      "Durée identique des deux côtés."
+    ],
+    "erreurs": [
+      "Épaule qui monte vers l'oreille.",
+      "Bassin reculé."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": "planche-laterale",
+    "animation": "assets/animations/planche-laterale-genoux.svg",
+    "url": "exercices/planche-laterale-genoux/",
+    "format": "duree",
+    "prescription_defaut": {
+      "series": 2,
+      "duree_secondes": "15 à 25 par côté",
+      "repos_secondes": 45
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-040",
+    "slug": "planche-laterale",
+    "nom": "Planche latérale",
+    "famille": "Tronc",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "tapis"
+    ],
+    "muscles": [
+      "abdominaux latéraux",
+      "épaule",
+      "fessiers"
+    ],
+    "description": "Maintenir le corps de côté sur un avant-bras et les pieds.",
+    "instructions": [
+      "Place le coude sous l'épaule et les jambes tendues.",
+      "Soulève le bassin pour former une ligne droite.",
+      "Tiens puis redescends avec contrôle."
+    ],
+    "points_cles": [
+      "Pousse le sol.",
+      "Hanches empilées.",
+      "Réduis la durée avant de perdre la forme."
+    ],
+    "erreurs": [
+      "Bassin qui roule vers l'avant.",
+      "Épaule écrasée."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": "planche-laterale-genoux",
+    "progression": null,
+    "animation": "assets/animations/planche-laterale.svg",
+    "url": "exercices/planche-laterale/",
+    "format": "duree",
+    "prescription_defaut": {
+      "series": 2,
+      "duree_secondes": "15 à 30 par côté",
+      "repos_secondes": 45
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-041",
+    "slug": "pallof-press-elastique",
+    "nom": "Pallof press élastique",
+    "famille": "Tronc",
+    "niveau_min": "intermédiaire",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "élastique",
+      "ancrage sûr"
+    ],
+    "muscles": [
+      "abdominaux",
+      "stabilité du tronc"
+    ],
+    "description": "Éloigner les mains du buste en résistant à la rotation créée par un élastique.",
+    "instructions": [
+      "Place-toi de côté par rapport à l'ancrage, élastique contre la poitrine.",
+      "Éloigne les mains devant toi sans tourner.",
+      "Ramène-les puis change de côté."
+    ],
+    "points_cles": [
+      "Ancrage vérifié.",
+      "Bassin et épaules face devant.",
+      "Tension modérée."
+    ],
+    "erreurs": [
+      "Tourner vers l'ancrage.",
+      "Écarter les pieds trop peu pour rester stable."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": null,
+    "animation": "assets/animations/pallof-press-elastique.svg",
+    "url": "exercices/pallof-press-elastique/",
+    "format": "repetitions",
+    "prescription_defaut": {
+      "series": 2,
+      "repetitions": "8 à 12",
+      "repos_secondes": 60
+    },
+    "unilateral": true,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  },
+  {
+    "id": "r28-042",
+    "slug": "farmer-walk",
+    "nom": "Marche du fermier",
+    "famille": "Corps entier",
+    "niveau_min": "débutant",
+    "environnement": [
+      "maison",
+      "salle"
+    ],
+    "materiel": [
+      "haltères ou sacs équilibrés"
+    ],
+    "muscles": [
+      "prise",
+      "tronc",
+      "jambes",
+      "épaules"
+    ],
+    "description": "Marcher lentement avec une charge dans chaque main en gardant une posture stable.",
+    "instructions": [
+      "Saisis deux charges équilibrées et redresse-toi.",
+      "Marche à petits pas contrôlés.",
+      "Pose les charges en pliant les jambes."
+    ],
+    "points_cles": [
+      "Trajet dégagé.",
+      "Charges symétriques.",
+      "Épaules basses et regard devant."
+    ],
+    "erreurs": [
+      "Courir avec les charges.",
+      "Se pencher d'un côté."
+    ],
+    "respiration": "Respire régulièrement, sans bloquer.",
+    "regression": null,
+    "progression": null,
+    "animation": "assets/animations/farmer-walk.svg",
+    "url": "exercices/farmer-walk/",
+    "format": "duree",
+    "prescription_defaut": {
+      "series": 3,
+      "duree_secondes": "30 à 45",
+      "repos_secondes": 60
+    },
+    "unilateral": false,
+    "tags": [],
+    "stop_rule": "Arrête si tu ressens une douleur inhabituelle, vive ou qui augmente. Une gêne articulaire n'est pas un objectif d'entraînement."
+  }
+]
