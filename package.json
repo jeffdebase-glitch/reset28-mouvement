@@ -6,8 +6,9 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check:data": "node scripts/check-data.mjs",
+    "check:animations": "node scripts/check-animations.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:public": "node scripts/check-public.mjs",
-    "check": "npm run build && npm run check:data && npm run check:links"
+    "check": "npm run build && npm run check:data && npm run check:animations && npm run check:links"
   }
 }

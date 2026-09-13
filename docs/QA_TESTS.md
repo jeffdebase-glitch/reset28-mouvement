@@ -4,7 +4,7 @@
 
 `npm run check`
 
-Elle reconstruit le site puis vérifie : schéma des exercices, IDs/slugs uniques, références de progression, programme DEMO, pages HTML, viewport, liens internes et assets.
+Elle reconstruit le site puis vérifie : schéma des exercices, IDs/slugs uniques, références de progression, programme DEMO, 43 scènes d'animation uniques, pages HTML, viewport, liens internes et assets.
 
 Après publication, `npm run check:public` contrôle réellement les pages et assets servis par GitHub Pages. Une autre URL peut être testée avec `RESET28_PUBLIC_URL=https://exemple.fr/ npm run check:public`.
 
