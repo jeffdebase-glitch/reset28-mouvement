@@ -11,3 +11,5 @@ python3 -m http.server 4173
 ```
 
 Documentation : [`docs/README.md`](docs/README.md).
+
+Publication automatique : GitHub Pages.
