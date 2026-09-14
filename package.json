@@ -9,6 +9,7 @@
     "check:animations": "node scripts/check-animations.mjs",
     "check:links": "node scripts/check-links.mjs",
     "check:public": "node scripts/check-public.mjs",
-    "check": "npm run build && npm run check:data && npm run check:animations && npm run check:links"
+    "check:navigation": "node scripts/check-navigation.mjs",
+    "check": "npm run build && npm run check:data && npm run check:animations && npm run check:links && npm run check:navigation"
   }
 }

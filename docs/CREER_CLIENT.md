@@ -8,3 +8,5 @@
 6. Commit, publication, puis vérifier l'URL sur iPhone.
 
 Règle : seulement le prénom ou prénom + initiale ; aucune donnée sensible.
+
+Les tuiles d'exercice sont automatiquement reliées au programme : `client-links.js` transmet le chemin de retour et la fiche affiche « Retour à mon programme ». Ne pas coder manuellement une URL de retour et ne pas supprimer ce script du template.

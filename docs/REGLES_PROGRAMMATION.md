@@ -26,6 +26,13 @@ Ces repères ne sont pas des prescriptions absolues.
 - Le minimum viable vaut souvent 1 tour de 3 à 5 mouvements ou 8 à 12 minutes.
 - Ne jamais « rattraper » une séance manquée.
 
+## Parcours de consultation
+
+- Les exercices sélectionnés dans un programme client doivent utiliser exclusivement un slug existant dans `data/exercises.json`.
+- Le lien de chaque tuile doit ouvrir la fiche centrale avec son contexte de retour ; le client doit pouvoir revenir directement à son programme sans passer par la bibliothèque générale.
+- Ne pas créer de copie d'une fiche pour un client et ne pas remplacer ce parcours par une URL vers la liste générale des exercices.
+- Une fiche ouverte directement depuis la bibliothèque conserve son accès « Tous les exercices » ; une fiche ouverte depuis un programme affiche « Retour à mon programme ».
+
 ## Progression sur 28 jours
 
 Modifier un seul levier principal à la fois :
