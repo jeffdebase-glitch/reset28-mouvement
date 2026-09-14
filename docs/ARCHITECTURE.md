@@ -9,7 +9,7 @@
 
 ## Génération
 
-`npm run build` produit les 42 fiches HTML, les 42 SVG animés, le JSON central et le client `DEMO`.
+`npm run build` produit les 43 fiches HTML, les 43 SVG animés, le JSON central et le client `DEMO`.
 
 ## URLs
 
