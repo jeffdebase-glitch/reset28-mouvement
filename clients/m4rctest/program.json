@@ -1,0 +1,355 @@
+{
+  "client": {
+    "display_name": "MARC TEST",
+    "id": "m4rctest",
+    "title": "Programme mouvement — niveau intermédiaire",
+    "dates": "14 septembre → 11 octobre 2026",
+    "level": "intermédiaire",
+    "environment": "salle ou maison",
+    "notice": "Programme fictif créé pour tester l’automatisation RESET28."
+  },
+  "minimum_viable": "Échauffement puis 1 tour de la séance prévue, tranquillement. Si une douleur inhabituelle apparaît, arrête le mouvement.",
+  "reminders": [
+    "3 séances de renforcement par semaine ; marche quotidienne séparée.",
+    "Choisis une variante qui laisse environ 2 répétitions en réserve.",
+    "Progression seulement si la technique reste propre ; pas de rattrapage après une séance manquée."
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "focus": "Prendre les repères et régler les charges",
+      "sessions": [
+        {
+          "name": "Séance A — jambes + poussée",
+          "duration": "environ 32 min",
+          "items": [
+            [
+              "squat",
+              "2 × 10",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "2 × 10",
+              "60 s"
+            ],
+            [
+              "pont-fessier",
+              "2 × 12",
+              "60 s"
+            ],
+            [
+              "bird-dog",
+              "2 × 8 / côté",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance B — tirage + unilatéral",
+          "duration": "environ 30 min",
+          "items": [
+            [
+              "step-up-bas",
+              "2 × 8 / côté",
+              "75 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "2 × 25 s",
+              "60 s"
+            ],
+            [
+              "glisse-murale-scapulaire",
+              "2 × 10",
+              "45 s"
+            ],
+            [
+              "planche-inclinee",
+              "2 × 20 s",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance C — full body",
+          "duration": "environ 32 min",
+          "items": [
+            [
+              "squat",
+              "2 × 10",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "2 × 10",
+              "60 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "2 × 25 s",
+              "60 s"
+            ],
+            [
+              "dead-bug",
+              "2 × 8 / côté",
+              "45 s"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "focus": "Installer la routine",
+      "sessions": [
+        {
+          "name": "Séance A — jambes + poussée",
+          "duration": "environ 36 min",
+          "items": [
+            [
+              "squat",
+              "3 × 10",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "3 × 10",
+              "60 s"
+            ],
+            [
+              "pont-fessier",
+              "3 × 12",
+              "60 s"
+            ],
+            [
+              "bird-dog",
+              "3 × 8 / côté",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance B — tirage + unilatéral",
+          "duration": "environ 34 min",
+          "items": [
+            [
+              "step-up-bas",
+              "3 × 8 / côté",
+              "75 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "3 × 25 s",
+              "60 s"
+            ],
+            [
+              "glisse-murale-scapulaire",
+              "3 × 10",
+              "45 s"
+            ],
+            [
+              "planche-inclinee",
+              "3 × 20 s",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance C — full body",
+          "duration": "environ 35 min",
+          "items": [
+            [
+              "squat",
+              "3 × 10",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "3 × 10",
+              "60 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "3 × 25 s",
+              "60 s"
+            ],
+            [
+              "dead-bug",
+              "3 × 8 / côté",
+              "45 s"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "focus": "Progresser sans sacrifier la technique",
+      "sessions": [
+        {
+          "name": "Séance A — jambes + poussée",
+          "duration": "environ 38 min",
+          "items": [
+            [
+              "squat",
+              "3 × 12",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "3 × 12",
+              "60 s"
+            ],
+            [
+              "pont-fessier",
+              "3 × 15",
+              "60 s"
+            ],
+            [
+              "bird-dog",
+              "3 × 10 / côté",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance B — tirage + unilatéral",
+          "duration": "environ 36 min",
+          "items": [
+            [
+              "step-up-bas",
+              "3 × 10 / côté",
+              "75 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "3 × 30 s",
+              "60 s"
+            ],
+            [
+              "glisse-murale-scapulaire",
+              "3 × 12",
+              "45 s"
+            ],
+            [
+              "planche-inclinee",
+              "3 × 25 s",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance C — full body",
+          "duration": "environ 38 min",
+          "items": [
+            [
+              "squat",
+              "3 × 12",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "3 × 12",
+              "60 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "3 × 30 s",
+              "60 s"
+            ],
+            [
+              "dead-bug",
+              "3 × 10 / côté",
+              "45 s"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "focus": "Consolider et mesurer l’adhérence",
+      "sessions": [
+        {
+          "name": "Séance A — jambes + poussée",
+          "duration": "environ 40 min",
+          "items": [
+            [
+              "squat",
+              "3 × 12",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "3 × 12",
+              "60 s"
+            ],
+            [
+              "pont-fessier",
+              "3 × 15",
+              "60 s"
+            ],
+            [
+              "bird-dog",
+              "3 × 10 / côté",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance B — tirage + unilatéral",
+          "duration": "environ 38 min",
+          "items": [
+            [
+              "step-up-bas",
+              "3 × 10 / côté",
+              "75 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "3 × 30 s",
+              "60 s"
+            ],
+            [
+              "glisse-murale-scapulaire",
+              "3 × 12",
+              "45 s"
+            ],
+            [
+              "planche-inclinee",
+              "3 × 30 s",
+              "45 s"
+            ]
+          ]
+        },
+        {
+          "name": "Séance C — full body",
+          "duration": "environ 40 min",
+          "items": [
+            [
+              "squat",
+              "3 × 12",
+              "75 s"
+            ],
+            [
+              "pompes-inclinees-hautes",
+              "3 × 12",
+              "60 s"
+            ],
+            [
+              "tirage-serviette-isometrique",
+              "3 × 30 s",
+              "60 s"
+            ],
+            [
+              "dead-bug",
+              "3 × 10 / côté",
+              "45 s"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
